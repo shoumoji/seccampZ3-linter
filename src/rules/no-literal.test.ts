@@ -11,7 +11,7 @@ tester.run("no-literal", rule, {
   invalid: [
     {
       code: `const x = 1;`,
-      errors: [{ message: "😿" }],
+      errors: [{ message: "だめっぽい?" }],
     }
   ],
 });
